@@ -1,9 +1,10 @@
 package com.yupi.yuapiinterface.controller;
 
 import com.yupi.yuapiclientsdk.model.User;
-import com.yupi.yuapiclientsdk.utils.SignUtils;
+import com.yupi.yuapiinterface.service.RestaurantService;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 /**
@@ -14,6 +15,9 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 @RequestMapping("/name")
 public class NameController {
+
+    @Resource
+    private RestaurantService restaurantService;
 
     @GetMapping("/get")
     public String getNameByGet(String name, HttpServletRequest request) {
@@ -27,7 +31,7 @@ public class NameController {
     }
 
     @PostMapping("/user")
-    public String getUsernameByPost(@RequestBody User user, HttpServletRequest request) {
+    public String getUserNameByPost(@RequestBody User user, HttpServletRequest request) {
 //        String accessKey = request.getHeader("accessKey");
 //        String nonce = request.getHeader("nonce");
 //        String timestamp = request.getHeader("timestamp");
@@ -52,5 +56,10 @@ public class NameController {
         // todo 调用次数 + 1 invokeCount
         String result = "POST 用户名字是" + user.getUsername();
         return result;
+    }
+
+    @GetMapping("/restaurant")
+    public String getRestaurant(){
+        return restaurantService.getRandomRestaurant();
     }
 }

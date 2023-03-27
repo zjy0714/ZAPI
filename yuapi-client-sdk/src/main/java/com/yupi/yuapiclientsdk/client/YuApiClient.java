@@ -20,7 +20,7 @@ import static com.yupi.yuapiclientsdk.utils.SignUtils.genSign;
  */
 public class YuApiClient {
 
-    private static final String GATEWAY_HOST = "http://121.5.134.227:8090";
+    private static final String GATEWAY_HOST = "http://localhost:8090";
 
     private String accessKey;
 
@@ -61,7 +61,7 @@ public class YuApiClient {
         return hashMap;
     }
 
-    public String getUsernameByPost(User user) {
+    public String getUserNameByPost(User user) {
         String json = JSONUtil.toJsonStr(user);
         HttpResponse httpResponse = HttpRequest.post(GATEWAY_HOST + "/api/name/user")
                 .addHeaders(getHeaderMap(json))
@@ -70,6 +70,15 @@ public class YuApiClient {
         System.out.println(httpResponse.getStatus());
         String result = httpResponse.body();
         System.out.println(result);
+        return result;
+    }
+
+    public String getRestaurant() {
+        HttpResponse httpResponse = HttpRequest.get(GATEWAY_HOST + "/api/name/restaurant")
+                .addHeaders(getHeaderMap(""))
+                .body("")
+                .execute();
+        String result = httpResponse.body();
         return result;
     }
 }

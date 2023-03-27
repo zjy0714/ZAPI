@@ -6,3 +6,9 @@ yuapi:
   client:
     access-key: yupi
     secret-key: abcdefgh
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.5.134.227:3306/zapi
+    username: zapi
+    password: 200279zwh
