@@ -1,0 +1,72 @@
+Manifest-Version: 1.0
+Main-Class: com.yupi.project.MyApplication
+Class-Path: netty-buffer-4.1.77.Final.jar lombok-1.18.24.jar springfox-s
+ chema-3.0.0.jar jul-to-slf4j-1.7.36.jar validation-api-2.0.1.Final.jar 
+ spring-boot-starter-logging-2.7.0.jar knife4j-spring-boot-starter-3.0.3
+ .jar tomcat-embed-websocket-9.0.63.jar swagger-annotations-2.1.2.jar cl
+ assgraph-4.8.83.jar knife4j-spring-ui-3.0.3.jar spring-core-5.3.20.jar 
+ springfox-swagger2-3.0.0.jar nacos-encryption-plugin-2.1.0.jar netty-co
+ dec-smtp-4.1.77.Final.jar spring-boot-starter-json-2.7.0.jar fastjson-1
+ .2.83.jar netty-handler-4.1.77.Final.jar netty-transport-classes-epoll-
+ 4.1.77.Final.jar swagger-models-1.5.22.jar guava-27.0.1-android.jar net
+ ty-codec-socks-4.1.77.Final.jar springfox-data-rest-3.0.0.jar netty-tra
+ nsport-classes-kqueue-4.1.77.Final.jar spring-data-keyvalue-2.7.0.jar s
+ pring-jcl-5.3.20.jar mybatis-plus-3.5.1.jar snakeyaml-1.30.jar springfo
+ x-bean-validators-3.0.0.jar netty-transport-native-epoll-4.1.77.Final-l
+ inux-x86_64.jar spring-plugin-core-2.0.0.RELEASE.jar netty-codec-dns-4.
+ 1.77.Final.jar simpleclient_tracer_otel-0.15.0.jar spring-aop-5.3.20.ja
+ r spring-web-5.3.20.jar hutool-all-5.8.9.jar springfox-spring-webflux-3
+ .0.0.jar mybatis-3.5.9.jar spring-context-support-5.3.20.jar jackson-da
+ tatype-jdk8-2.13.3.jar checker-compat-qual-2.5.2.jar netty-codec-redis-
+ 4.1.77.Final.jar netty-codec-stomp-4.1.77.Final.jar spring-boot-autocon
+ figure-2.7.0.jar simpleclient_tracer_common-0.15.0.jar spring-data-comm
+ ons-2.7.0.jar springfox-boot-starter-3.0.0.jar netty-codec-xml-4.1.77.F
+ inal.jar animal-sniffer-annotations-1.17.jar nacos-auth-plugin-2.1.0.ja
+ r netty-transport-native-kqueue-4.1.77.Final-osx-x86_64.jar netty-resol
+ ver-dns-native-macos-4.1.77.Final-osx-aarch_64.jar jackson-module-param
+ eter-names-2.13.3.jar jsr305-3.0.2.jar netty-codec-http-4.1.77.Final.ja
+ r simpleclient_tracer_otel_agent-0.15.0.jar mybatis-plus-annotation-3.5
+ .1.jar springfox-core-3.0.0.jar reactor-core-3.4.18.jar slf4j-api-1.7.3
+ 6.jar spring-tx-5.3.20.jar spring-boot-devtools-2.7.0.jar spring-boot-s
+ tarter-aop-2.7.0.jar netty-transport-udt-4.1.77.Final.jar mybatis-sprin
+ g-boot-autoconfigure-2.2.2.jar spring-boot-starter-tomcat-2.7.0.jar spr
+ ing-boot-starter-jdbc-2.7.0.jar netty-resolver-4.1.77.Final.jar netty-t
+ ransport-native-epoll-4.1.77.Final-linux-aarch_64.jar httpclient-4.5.13
+ .jar mybatis-spring-boot-starter-2.2.2.jar gson-2.9.0.jar netty-codec-m
+ qtt-4.1.77.Final.jar listenablefuture-9999.0-empty-to-avoid-conflict-wi
+ th-guava.jar jackson-datatype-jsr310-2.13.3.jar netty-codec-haproxy-4.1
+ .77.Final.jar springfox-spi-3.0.0.jar spring-plugin-metadata-2.0.0.RELE
+ ASE.jar failureaccess-1.0.1.jar mybatis-spring-2.0.7.jar spring-data-re
+ dis-2.7.0.jar netty-codec-4.1.77.Final.jar httpasyncclient-4.1.5.jar le
+ ttuce-core-6.1.8.RELEASE.jar commons-codec-1.15.jar spring-boot-2.7.0.j
+ ar javassist-3.28.0-GA.jar swagger-core-1.5.22.jar spring-session-data-
+ redis-2.7.0.jar logback-classic-1.2.11.jar spring-context-support-1.0.8
+ .jar netty-codec-memcache-4.1.77.Final.jar knife4j-spring-3.0.3.jar kni
+ fe4j-spring-boot-autoconfigure-3.0.3.jar springfox-swagger-common-3.0.0
+ .jar netty-transport-rxtx-4.1.77.Final.jar aspectjweaver-1.9.7.jar nett
+ y-transport-4.1.77.Final.jar netty-handler-proxy-4.1.77.Final.jar httpc
+ ore-nio-4.4.15.jar spring-webmvc-5.3.20.jar spring-jdbc-5.3.20.jar myba
+ tis-plus-extension-3.5.1.jar spring-beans-5.3.20.jar netty-resolver-dns
+ -4.1.77.Final.jar mybatis-plus-boot-starter-3.5.1.jar spring-expression
+ -5.3.20.jar netty-resolver-dns-native-macos-4.1.77.Final-osx-x86_64.jar
+  tomcat-embed-el-9.0.63.jar netty-common-4.1.77.Final.jar mybatis-plus-
+ core-3.5.1.jar springfox-spring-web-3.0.0.jar dubbo-3.0.9.jar jackson-a
+ nnotations-2.13.3.jar HikariCP-4.0.3.jar spring-boot-starter-web-2.7.0.
+ jar jackson-databind-2.13.3.jar jakarta.annotation-api-1.3.5.jar jackso
+ n-core-2.13.3.jar jackson-dataformat-yaml-2.13.3.jar classmate-1.5.1.ja
+ r spring-context-5.3.20.jar knife4j-annotations-3.0.3.jar netty-all-4.1
+ .77.Final.jar netty-transport-native-kqueue-4.1.77.Final-osx-aarch_64.j
+ ar log4j-api-2.17.2.jar reactive-streams-1.0.3.jar swagger-models-2.1.2
+ .jar springfox-oas-3.0.0.jar httpcore-4.4.15.jar log4j-to-slf4j-2.17.2.
+ jar netty-transport-sctp-4.1.77.Final.jar mapstruct-1.3.1.Final.jar byt
+ e-buddy-1.12.10.jar spring-boot-starter-2.7.0.jar commons-lang3-3.12.0.
+ jar spring-session-core-2.7.0.jar knife4j-core-3.0.3.jar nacos-client-2
+ .1.0.jar springfox-spring-webmvc-3.0.0.jar simpleclient-0.15.0.jar jsql
+ parser-4.3.jar swagger-annotations-1.5.22.jar mysql-connector-java-8.0.
+ 29.jar netty-transport-native-unix-common-4.1.77.Final.jar spring-boot-
+ starter-data-redis-2.7.0.jar logback-core-1.2.11.jar j2objc-annotations
+ -1.1.jar tomcat-embed-core-9.0.63.jar spring-boot-configuration-process
+ or-2.7.0.jar netty-resolver-dns-classes-macos-4.1.77.Final.jar spring-o
+ xm-5.3.20.jar netty-codec-http2-4.1.77.Final.jar error_prone_annotation
+ s-2.2.0.jar
+
