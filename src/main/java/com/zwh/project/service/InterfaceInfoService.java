@@ -1,7 +1,7 @@
 package com.zwh.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yupi.yuapicommon.model.entity.InterfaceInfo;
+import com.zwh.zapicommon.model.entity.InterfaceInfo;
 
 /**
  *

@@ -1,7 +1,7 @@
-package com.yupi.yuapiinterface.controller;
+package com.zwh.zapiinterface.controller;
 
 import com.zwh.zapiclientsdk.model.User;
-import com.yupi.yuapiinterface.service.RestaurantService;
+import com.zwh.zapiinterface.service.RestaurantService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;

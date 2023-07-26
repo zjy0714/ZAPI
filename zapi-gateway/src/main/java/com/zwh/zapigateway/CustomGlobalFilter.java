@@ -117,12 +117,12 @@ public class CustomGlobalFilter implements GlobalFilter, Ordered {
         //查询接口id和用户id
         Long interfaceInfoId = interfaceInfo.getId();
         Long invokeUserId = invokeUser.getId();
-//        //是否还有调用次数
-//        boolean hasLeftNum = innerUserInterfaceInfoService.invokeLeftNum(interfaceInfoId, invokeUserId);
-//        //没有次数抛出异常
-//        if (!hasLeftNum) {
-//            return handleNoAuth(response);
-//        }
+        //是否还有调用次数
+        boolean hasLeftNum = innerUserInterfaceInfoService.invokeLeftNum(interfaceInfoId, invokeUserId);
+        //没有次数抛出异常
+        if (!hasLeftNum) {
+            return handleNoAuth(response);
+        }
         return handleResponse(exchange, chain, interfaceInfo.getId(), invokeUser.getId());
 
     }

@@ -5,7 +5,7 @@ import com.zwh.project.service.InterfaceInfoService;
 import com.zwh.project.common.ErrorCode;
 import com.zwh.project.exception.BusinessException;
 import com.zwh.project.mapper.InterfaceInfoMapper;
-import com.yupi.yuapicommon.model.entity.InterfaceInfo;
+import com.zwh.zapicommon.model.entity.InterfaceInfo;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 

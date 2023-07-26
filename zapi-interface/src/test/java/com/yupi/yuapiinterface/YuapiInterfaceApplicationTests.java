@@ -2,7 +2,7 @@ package com.yupi.yuapiinterface;
 
 import com.zwh.zapiclientsdk.client.ZApiClient;
 import com.zwh.zapiclientsdk.model.User;
-import com.yupi.yuapiinterface.service.RestaurantService;
+import com.zwh.zapiinterface.service.RestaurantService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

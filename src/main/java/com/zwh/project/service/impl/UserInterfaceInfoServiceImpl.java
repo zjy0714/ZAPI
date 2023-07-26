@@ -6,7 +6,7 @@ import com.zwh.project.common.ErrorCode;
 import com.zwh.project.exception.BusinessException;
 import com.zwh.project.mapper.UserInterfaceInfoMapper;
 import com.zwh.project.service.UserInterfaceInfoService;
-import com.yupi.yuapicommon.model.entity.UserInterfaceInfo;
+import com.zwh.zapicommon.model.entity.UserInterfaceInfo;
 import org.springframework.stereotype.Service;
 
 /**

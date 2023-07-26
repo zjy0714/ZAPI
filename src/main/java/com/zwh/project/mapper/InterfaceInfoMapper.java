@@ -1,7 +1,7 @@
 package com.zwh.project.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.yupi.yuapicommon.model.entity.InterfaceInfo;
+import com.zwh.zapicommon.model.entity.InterfaceInfo;
 
 /**
  * @Entity com.yupi.project.model.entity.InterfaceInfo

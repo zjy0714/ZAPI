@@ -13,10 +13,10 @@ import com.zwh.project.model.dto.userinterfaceinfo.UserInterfaceInfoQueryRequest
 import com.zwh.project.model.dto.userinterfaceinfo.UserInterfaceInfoUpdateRequest;
 import com.zwh.project.service.UserInterfaceInfoService;
 import com.zwh.project.service.UserService;
-import com.yupi.yuapicommon.model.entity.User;
-import com.yupi.yuapicommon.model.entity.UserInterfaceInfo;
 import com.zwh.project.common.DeleteRequest;
 import com.zwh.project.common.ResultUtils;
+import com.zwh.zapicommon.model.entity.User;
+import com.zwh.zapicommon.model.entity.UserInterfaceInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;

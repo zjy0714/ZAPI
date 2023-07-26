@@ -4,8 +4,8 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.zwh.project.common.ErrorCode;
 import com.zwh.project.exception.BusinessException;
 import com.zwh.project.service.UserInterfaceInfoService;
-import com.yupi.yuapicommon.model.entity.UserInterfaceInfo;
-import com.yupi.yuapicommon.service.InnerUserInterfaceInfoService;
+import com.zwh.zapicommon.model.entity.UserInterfaceInfo;
+import com.zwh.zapicommon.service.InnerUserInterfaceInfoService;
 import org.apache.dubbo.config.annotation.DubboService;
 
 import javax.annotation.Resource;
