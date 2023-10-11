@@ -1,13 +1,13 @@
 package com.zwh.project.model.vo;
 
-import com.yupi.yuapicommon.model.entity.InterfaceInfo;
+import com.zwh.zapicommon.model.entity.InterfaceInfo;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
  * 接口信息封装视图
  *
- * @author yupi
+ * @author zwh
  * @TableName product
  */
 @EqualsAndHashCode(callSuper = true)

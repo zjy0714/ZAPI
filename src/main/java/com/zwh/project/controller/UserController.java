@@ -10,8 +10,8 @@ import com.zwh.project.common.ResultUtils;
 import com.zwh.project.exception.BusinessException;
 import com.zwh.project.model.vo.UserVO;
 import com.zwh.project.service.UserService;
-import com.yupi.yuapicommon.model.entity.User;
 import com.zwh.project.model.dto.user.*;
+import com.zwh.zapicommon.model.entity.User;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 /**
  * 用户接口
  *
- * @author yupi
+ * @author zwh
  */
 @RestController
 @RequestMapping("/user")

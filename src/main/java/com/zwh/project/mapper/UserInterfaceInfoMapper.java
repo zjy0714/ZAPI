@@ -6,7 +6,7 @@ import com.zwh.zapicommon.model.entity.UserInterfaceInfo;
 import java.util.List;
 
 /**
- * @Entity com.yupi.project.model.entity.UserInterfaceInfo
+ * @Entity com.zwh.project.model.entity.UserInterfaceInfo
  */
 public interface UserInterfaceInfoMapper extends BaseMapper<UserInterfaceInfo> {
 

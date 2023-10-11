@@ -6,7 +6,7 @@ import com.zwh.zapicommon.model.entity.User;
 /**
  * 用户服务
  *
- * @author yupi
+ * @author zwh
  */
 public interface InnerUserService {
 

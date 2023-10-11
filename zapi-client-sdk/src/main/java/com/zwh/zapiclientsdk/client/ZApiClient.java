@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * 调用第三方接口的客户端
  *
- * @author yupi
+ * @author zwh
  */
 public class ZApiClient {
 

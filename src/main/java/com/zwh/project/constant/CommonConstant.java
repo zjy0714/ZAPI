@@ -3,7 +3,7 @@ package com.zwh.project.constant;
 /**
  * 通用常量
  *
- * @author yupi
+ * @author zwh
  */
 public interface CommonConstant {
 

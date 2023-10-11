@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan({"com.yupi.yuapiinterface.mapper"})
+@MapperScan({"com.zwh.yuapiinterface.mapper"})
 public class ZapiInterfaceApplication {
 
     public static void main(String[] args) {

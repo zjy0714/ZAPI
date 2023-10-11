@@ -31,7 +31,7 @@ import java.util.List;
 /**
  * 接口管理
  *
- * @author yupi
+ * @author zwh
  */
 @RestController
 @RequestMapping("/interfaceInfo")

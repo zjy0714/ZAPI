@@ -3,7 +3,7 @@ package com.zwh.project.common;
 /**
  * 错误码
  *
- * @author yupi
+ * @author zwh
  */
 public enum ErrorCode {
 

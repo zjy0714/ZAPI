@@ -5,7 +5,7 @@ import com.zwh.project.annotation.AuthCheck;
 import com.zwh.project.common.ErrorCode;
 import com.zwh.project.exception.BusinessException;
 import com.zwh.project.service.UserService;
-import com.yupi.yuapicommon.model.entity.User;
+import com.zwh.zapicommon.model.entity.User;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 /**
  * 权限校验 AOP
  *
- * @author yupi
+ * @author zwh
  */
 @Aspect
 @Component

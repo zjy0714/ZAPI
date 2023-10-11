@@ -1,6 +1,6 @@
 package com.zwh.zapigateway;
 
-import com.yupi.project.provider.DemoService;
+import com.zwh.project.provider.DemoService;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;

@@ -24,7 +24,7 @@ import static com.zwh.project.constant.UserConstant.USER_LOGIN_STATE;
 /**
  * 用户服务实现类
  *
- * @author yupi
+ * @author zwh
  */
 @Service
 @Slf4j
@@ -37,7 +37,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     /**
      * 盐值，混淆密码
      */
-    private static final String SALT = "yupi";
+    private static final String SALT = "zwh";
 
     @Override
     public long userRegister(String userAccount, String userPassword, String checkPassword) {
